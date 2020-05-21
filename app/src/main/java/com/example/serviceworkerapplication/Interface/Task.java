@@ -1,4 +1,4 @@
-package com.example.serviceworkerapplication;
+package com.example.serviceworkerapplication.Interface;
 
 // Task interface having two method definition
 public interface Task<T> {

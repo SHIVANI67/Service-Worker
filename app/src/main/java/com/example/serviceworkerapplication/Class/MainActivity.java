@@ -1,4 +1,4 @@
-package com.example.serviceworkerapplication;
+package com.example.serviceworkerapplication.Class;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.example.serviceworkerapplication.Interface.OnImageFetched;
+import com.example.serviceworkerapplication.R;
 
 // root class from where the execution will start
 public class MainActivity extends AppCompatActivity implements OnImageFetched {

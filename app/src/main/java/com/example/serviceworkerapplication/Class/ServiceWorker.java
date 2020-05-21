@@ -1,7 +1,10 @@
-package com.example.serviceworkerapplication;
+package com.example.serviceworkerapplication.Class;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+
+import com.example.serviceworkerapplication.Interface.OnImageFetched;
+import com.example.serviceworkerapplication.Interface.Task;
 
 import java.io.IOException;
 
